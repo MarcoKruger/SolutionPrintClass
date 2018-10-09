@@ -9,6 +9,17 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="350,317,0,0" VerticalAlignment="Top" Height="183" Width="323" Click="Button_Click"/>
+        <!--<Button Content="Click this to do something" Click="Button_Click" />/-->
+        <!--<TextBlock Text="None" Name="Output" Width="500" Height="100" HorizontalAlignment="Right"></TextBlock>-->
 
+        <Rectangle x:Name="RectangleToPrint"
+               Width="500"
+               Height="500" HorizontalAlignment="Right">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Assets/img.jpg" />
+            </Rectangle.Fill>
+        </Rectangle>
+    </Grid>
     </Grid>
 </Page>
